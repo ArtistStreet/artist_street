@@ -139,3 +139,11 @@ function mousehandler(e) {
 //     }
 //   }
 // }
+const popup = document.querySelector(".popup");
+const hide = document.querySelector(".hide");
+window.onload = function () {
+  setTimeout(function () {
+    popup.style.display = "block";
+    hide.style.display = "none";
+  }, 1000);
+};
