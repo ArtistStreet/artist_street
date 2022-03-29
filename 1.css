@@ -16,7 +16,10 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-
+.popup1 {
+  display: none;
+  background-image: url(https://wallpaperaccess.com/full/670779.jpg);
+}
 .card {
   max-width: 340px;
   margin: auto;

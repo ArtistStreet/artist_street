@@ -141,9 +141,11 @@ function mousehandler(e) {
 // }
 const popup = document.querySelector(".popup");
 const hide = document.querySelector(".hide");
+const body = document.querySelector("body");
 window.onload = function () {
   setTimeout(function () {
     popup.style.display = "block";
     hide.style.display = "none";
-  }, 1000);
+    body.style.background = "url(https://wallpaperaccess.com/full/670779.jpg)";
+  }, 15000);
 };
