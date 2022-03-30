@@ -70,7 +70,7 @@ const handleButtonClick = (e) => {
 buttons.forEach((btn) => {
   btn.addEventListener("click", handleButtonClick);
 });
-var message = "what do you want? ctr shift c or ctr u for sure";
+var message = "my code isn't clean :))";
 
 function rtclickcheck(keyp) {
   if (navigator.appName == "Netscape" && keyp.which == 3) {
@@ -151,3 +151,8 @@ window.onload = function () {
     body.style.background = "url(https://wallpaperaccess.com/full/670779.jpg)";
   }, 15000);
 };
+document.addEventListener("keydown", function (event) {
+  if (event.ctrlKey) {
+    event.preventDefault();
+  }
+});
