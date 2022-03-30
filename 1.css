@@ -41,10 +41,10 @@ body {
   height: 450px;
 }
 .card[data-state="#experience"] {
-  height: 400px;
+  height: 550px;
 }
 .card[data-state="#contact"] {
-  height: 430px;
+  height: 350px;
 }
 .card-fullname.is-active,
 .card-jobtitle.is-active {
@@ -443,7 +443,7 @@ svg {
   .card {
     width: 300px;
   }
-}
-.card[data-state="#experience"] {
-  height: 600px;
+  .card[data-state="#experience"] {
+    height: 600px;
+  }
 }
