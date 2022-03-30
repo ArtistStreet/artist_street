@@ -142,10 +142,12 @@ function mousehandler(e) {
 const popup = document.querySelector(".popup");
 const hide = document.querySelector(".hide");
 const body = document.querySelector("body");
+const line = document.querySelector(".line");
 window.onload = function () {
   setTimeout(function () {
     popup.style.display = "block";
     hide.style.display = "none";
+    line.style.textDecoration = "line-through";
     body.style.background = "url(https://wallpaperaccess.com/full/670779.jpg)";
-  }, 15000);
+  }, 1500);
 };

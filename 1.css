@@ -16,10 +16,7 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-.popup1 {
-  display: none;
-  background-image: url(https://wallpaperaccess.com/full/670779.jpg);
-}
+
 .card {
   max-width: 340px;
   margin: auto;
@@ -42,18 +39,12 @@ body {
 }
 .card[data-state="#about"] {
   height: 450px;
-  width: 100%;
 }
-
-.card[data-state="#contact"] {
-  height: 430px;
-}
-
 .card[data-state="#experience"] {
   height: 550px;
 }
-
-.card.is-active {
+.card[data-state="#contact"] {
+  height: 430px;
 }
 .card-fullname.is-active,
 .card-jobtitle.is-active {
@@ -206,9 +197,6 @@ a:hover.github {
   background-color: #171515;
 }
 
-#contact {
-  display: none;
-}
 .card-buttons {
   display: flex;
   background-color: #fff;
@@ -425,7 +413,6 @@ button.btn.btn-left:hover::after {
   font-size: 14px;
   font-weight: 500;
   font-family: "Jost", sans-serif;
-  transition: 0.3s;
 }
 .card-contact-wrapper {
   margin-top: 20px;
@@ -451,4 +438,12 @@ svg {
 }
 .popup {
   display: none;
+}
+@media screen and (max-width: 800px) {
+  .card {
+    width: 300px;
+  }
+}
+.card[data-state="#experience"] {
+  height: 600px;
 }
