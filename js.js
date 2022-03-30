@@ -149,5 +149,5 @@ window.onload = function () {
     hide.style.display = "none";
     line.style.textDecoration = "line-through";
     body.style.background = "url(https://wallpaperaccess.com/full/670779.jpg)";
-  }, 1500);
+  }, 15000);
 };
