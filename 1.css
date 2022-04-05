@@ -444,6 +444,12 @@ svg {
     width: 300px;
   }
   .card[data-state="#experience"] {
-    height: 600px;
+    height: 590px;
+  }
+  .card-main{
+    padding: 0px;
+  }
+  .card-content{
+    padding-top: 10px;
   }
 }
